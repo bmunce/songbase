@@ -12,4 +12,4 @@ def get_user(name):
     return '<h1>hello %s your age is %d</h1>' % (name, 20)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
