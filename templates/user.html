@@ -1,0 +1,10 @@
+{% extends }
+    {# this is a jinja comment #}
+    <h1>this is the user page</h1>
+    {% if user_name == "brandon"%}
+      <h1>hello, brandon!</h1>
+    {% else %}
+    <h1>Hello, {{user_name}}</h1>
+    {% endif %}
+  </body>
+</html>
